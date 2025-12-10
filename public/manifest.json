@@ -1,0 +1,15 @@
+{
+  "short_name": "Random Tripper",
+  "name": "Random Tripper",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1c3a",
+  "background_color": "#1a1c3a"
+}
