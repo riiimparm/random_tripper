@@ -1,0 +1,20 @@
+# Cloudflare Pages向けの設定
+
+# プロジェクト名 (Pagesのプロジェクト名とPages.devのサブドメインになります)
+name = "random-tripper-riiimparm-com"
+
+# Pagesプロジェクトのビルド成果物ディレクトリを指定します。
+# React SSGの場合、通常は "dist" や "build" など、SSGフレームワークが出力するディレクトリを指定します。
+pages_build_output_dir = "./build" # <-- ここをあなたのプロジェクトに合わせて変更
+
+# 互換性の日付 (新しいランタイムの挙動を有効化するために最新の日付を設定することが推奨されます)
+compatibility_date = "2025-12-11" # <-- 最新の日付を指定
+
+# 例: 環境変数 (Pages Functionsで使用する場合など)
+# [vars]
+# API_ENDPOINT = "https://api.example.com"
+
+# 例: KV Namespace Binding (Pages Functionsで使用する場合など)
+# [[kv_namespaces]]
+# binding = "MY_KV" # Worker/Function内でアクセスする変数名
+# id = "<YOUR_KV_NAMESPACE_ID>" # Cloudflareで作成したKV NamespaceのID
